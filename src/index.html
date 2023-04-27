@@ -3,12 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    
+    <main>
+
+        <section class="left-section"> <!-- Sección izquierda -->
+          <header>
+            <h1>Paga ahora</h1>
+          </header>
+          <figure class="card-image"> <!-- imagen -->
+            <img src="Tarjeta.png" alt="Imagen de la tarjeta" height="420px" width="420px">
+          </figure>
+          <p id="resultado" class="resultado">¿El número es valido?</p>
+        </section>
+
+        <section class="right-section"> <!-- Sección derecha -->
+          <h3>Número de tarjeta</h3>
+          <input class="input-info" id="numeroTarjeta" type="number" maxlength="16" placeholder="Ingrese su número de tarjeta"><br>
+
+          <h3>Nombre y apellido</h3>
+          <div class="info">
+            <input type="text" class="input-info" id="nombre" placeholder="Nombre">
+          </div>
+          <div class="info">
+            <input type="text" class="input-info" id="apellido" placeholder="Apellido">
+          </div>
+
+          <h3>Fecha de expiración</h3>
+          <div class="info">
+            <input type="number" class="input-info" id="mes" placeholder="MM">
+          </div>
+          <div class="info">
+            <input type="text" class="input-info" id="anio" placeholder="AAAA">
+          </div>
+
+          <h3>Código de seguridad</h3>
+          <div class="info">
+            <input type="number" class="input-info" id="cvv" placeholder="CVV">
+          </div>
+
+          <button id="boton" onClick="boton()">Validar tarjeta</button>
+
+        </section>
+
+    </main>
+
+<!-- el modulo es para decir que hay otros archivos de javascript -->
     <script src="index.js" type="module"></script>
+
   </body>
 </html>
