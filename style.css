@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+  margin: auto;
+  width: 640px;
+  padding: 30px;
+  font-family: 'Avenir', sans-serif;
+  color: #ffffff;
+  background-color: #2d2e2e;
+}
+
+/* Estilos para los encabezados */
+h1, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+/* Estilo de la sección de la izquierda */
+.left-section {
+  text-align: center;
+  margin-left: -150px;
+  margin-top: 20px;
+  width: 80%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilo de la sección de la derecha */
+.right-section {
+  justify-content: center;
+  width: 50%;
+  margin-left: 400px;
+  margin-top: -560px;
+  padding-right: 7%;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  box-shadow: 0px 0px 10px #0d0e0e;
+}
+
+/* Desaparecer las flechas del input number*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* Estilos para el botón */
+button {
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  background-color: #0ea2b6;
+  color: #2d2e2e;
+  border: none;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px #0d0e0e;
+}
+
+button:hover {
+  background-color: #f867ab;
+  color: #2d2e2e;
+}
+
+/* Estilos para los campos de texto de la información*/
+
+.input-info {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3c3d3d;
+  color: #ffffff;
+  font-size: 16px;  
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+
+/*:focus crea un efecto neon en la linea del borde del input*/
+.input-info:focus {
+  outline: none;
+ box-shadow: 0px 0px 5px #0ea2b6;
+}
+
+
