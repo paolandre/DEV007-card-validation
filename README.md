@@ -9,8 +9,6 @@
 * [4. Consideraciones técnicas](#4-consideraciones-técnicas)
 * [5. Diseño de la interfaz](#5-diseño-de-la-interfaz)
 
-Este proyecto consiste en la creación de una herramienta que valide el número de tarjeta de crédito de un usuario utilizando el algoritmo de Luhn.
-
 # 1. Preámbulo
 El algoritmo de Luhn es un método utilizado para validar la autenticidad de una variedad de números de identificación, incluyendo números de tarjeta de crédito. Este algoritmo se basa en la suma de los dígitos del número de tarjeta de crédito, aplicando una serie de reglas para determinar si el número es válido.
 
